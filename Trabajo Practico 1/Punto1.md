@@ -3,7 +3,7 @@ estudiar la dinámica del sistema, con una entrada de tensión escalón de 12V, 
 cambia de signo.
 
 
-
+```
 clc;clear all;close all;
 
 %Defino las contantes del sistema
@@ -11,7 +11,7 @@ R=2.2e3;
 L=500e-3;
 C=10e-6;
 
-Defino las matrices
+%Defino las matrices
 Mat_A=[-R/L -1/L;1/C 0];
 Mat_B=[1/L;0];
 Mat_C=[R 0;0 1];% Necesito el voltaje a la salida que es el producto entre la corriente de la malla y la resistencia
@@ -59,6 +59,8 @@ Corriente=lsim(sys2,u,t);
 figure
 plot(t,Corriente);
 title('Corriente en el circuito i(t)');
+
+```
 
 ![Corriente](Imagenes/Punto1/Corriente.png)
 
