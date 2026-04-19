@@ -60,6 +60,6 @@ figure
 plot(t,Corriente);
 title('Corriente en el circuito i(t)');
 
-![Corriente](imagenes/Punto1/Corriente.png)
+![Corriente](Trabajo Practico 1/Imagenes/Punto1/Corriente.png)
 
-![Tensión](imagenes/Punto1/tension.png)
+![Tensión](Trabajo Practico 1/Imagenes/Punto1/tension.png)
