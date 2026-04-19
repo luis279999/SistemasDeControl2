@@ -61,9 +61,11 @@ plot(t,Corriente);
 title('Corriente en el circuito i(t)');
 
 ```
-
-
 <p align="center">
   <img src="Imagenes/Punto1/Corriente.png" width="500">
-<img src="Imagenes/Punto1/tension.png" width="500">
+
 </p>
+<p align="center">
+  <img src="Imagenes/Punto1/tension.png" width="500">
+</p>
+
